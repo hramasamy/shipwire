@@ -22,12 +22,14 @@ public class Order implements Serializable {
     private ArrayList<Lines> lines;
     private STATUS orderStatus;
     private int totalLeftToFill;
+    private int totalQuantityOrdered;
     private Date recvDate;
     private Date fillDate;
 
     public Order() {
         lines = new ArrayList<Lines>();
         totalLeftToFill = 0;
+        totalQuantityOrdered = 0 ;
     }
 
     public Date getFillDate() {
@@ -78,12 +80,24 @@ public class Order implements Serializable {
         this.totalLeftToFill = totalQunatity;
     }
 
-    public void addTotalQuantity(int addValue) {
+    public int getTotalQuantityOrdered() {
+        return totalQuantityOrdered;
+    }
+
+    public void setTotalQuantityOrdered(int totalQuantityOrdered) {
+        this.totalQuantityOrdered = totalQuantityOrdered;
+    }
+
+    public void addTotalQuantityOrdered (int addValue) {
+        this.totalQuantityOrdered += addValue ;
+    }
+
+    public void addtotalLeftToFill(int addValue) {
 
         this.totalLeftToFill += addValue;
     }
 
-    public void subTotalQuantity(int subValue) {
+    public void subtotalLeftToFill(int subValue) {
 
         this.totalLeftToFill -= subValue;
     }
@@ -109,7 +123,7 @@ public class Order implements Serializable {
             if (quantity != 0) {
                 lines.get(i).setLineStatus(STATUS.PARTIAL);
             } else {
-                lines.get(i).setLineStatus(STATUS.OUT_OF_STOCK);
+                lines.get(i).setLineStatus(STATUS.BACK_ORDER);
             }
         }
         lines.get(i).setUpdateDate(new Date());

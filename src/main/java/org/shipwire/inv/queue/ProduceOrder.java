@@ -56,7 +56,7 @@ public class ProduceOrder {
         try {
             Object obj = parser.parse(new FileReader(getOrderFileName()));
 
-            System.out.println("########## Current Orders Begin ################");
+            System.out.println("########## Initial Read Orders Begin ################");
             JSONArray jsonObject = (JSONArray) obj;
 
             ObjectMapper mapper = new ObjectMapper();
@@ -96,7 +96,8 @@ public class ProduceOrder {
                     lines.setQuantity(Integer.parseInt((String) itemObj.get("Quantity")));
                     //mapper.readValue(prodObj.toString(), Lines.class);
                     order.addItem(lines);
-                    order.addTotalQuantity(lines.getQuantity());
+                    order.addtotalLeftToFill(lines.getQuantity());
+                    order.addTotalQuantityOrdered(lines.getQuantity());
                     //System.out.println (lines.getProduct() + " " + lines.getQuantity()) ;
 
                 }
@@ -120,7 +121,7 @@ public class ProduceOrder {
                 }
 
             }
-            System.out.println("########## Current Orders End  ################");
+            System.out.println("########## Initial Read Orders End  ################");
             // System.out.println (productList.size() ) ;
 
         } catch (FileNotFoundException e) {

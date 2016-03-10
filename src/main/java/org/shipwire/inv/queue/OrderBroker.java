@@ -103,9 +103,9 @@ public class OrderBroker {
             }
             // System.out.println (productList.size() + " " + invCount.get() ) ;
 
-            System.out.println("########## Current Product Inventory Begin ################");
+            System.out.println("########## Initial Product Inventory Begin ################");
             this.printProductJson();
-            System.out.println("########## Current Product Inventory Ends ################");
+            System.out.println("########## Initial Product Inventory Ends ################");
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();

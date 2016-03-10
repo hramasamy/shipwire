@@ -57,7 +57,7 @@ public class ConsumeOrder implements Runnable {
                                     //System.out.println ("The value of i is " + i) ;
                                     broker.subProductAmount(productName, amount);
                                     broker.invCount.set(broker.invCount.get() - amount);
-                                    order.subTotalQuantity(amount);
+                                    order.subtotalLeftToFill(amount);
                                     order.setLineFilled(i, amount);
 
 
@@ -69,9 +69,14 @@ public class ConsumeOrder implements Runnable {
                                 } else {
                                     broker.invCount.set(broker.invCount.get() - prod.getQuantityAvailable());
                                     broker.subProductAmount(productName, prod.getQuantityAvailable());
-                                    order.subTotalQuantity(prod.getQuantityAvailable());
+                                    order.subtotalLeftToFill(prod.getQuantityAvailable());
                                     order.setLineFilled(i, prod.getQuantityAvailable());
-                                    order.setOrderStatus(STATUS.PARTIAL);
+                                    if (order.getTotalLeftToFill() == order.getTotalQuantityOrdered()) {
+                                        order.setOrderStatus(STATUS.NOT_FILLED) ;
+                                    }
+                                    else {
+                                        order.setOrderStatus(STATUS.PARTIAL);
+                                    }
 
                                 }
 
