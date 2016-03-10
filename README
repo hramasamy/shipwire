@@ -5,10 +5,18 @@ To Build
 To run 
 
    1) cd target
-   2) java -jar inventory.jar ../data/sample.json ../data/orders.json 
-   3) an optional number can be given as the third argument denoting number of threads to process the inventory. 
+   2) java -jar inventory.jar ../data/sample.json ../data/orders.json [3]
+   3) an optional number can be given as the third argument denoting number of threads to process the orders.
 
 Sample Output  
  
-   *) a sample output exists in data dir and is called sample output. The orders and products are printed prior to processing 
-      and after processing the status of orders and product inventory status.
+   *) an example output exists in data dir and is called sampl output. The orders and product inventory  are printed prior to processing the orders.
+      The orders and inventory are printed again after processing orders. The format is json.
+
+
+Order output status 
+
+ Line order will have either FILLED, BACK_ORDER, REJECTED, NOT_AVAILABLE when order is filled, cannot be filled, invalid order, or product not available.
+
+ Order will have FILLED, PARTIAL, NOT_FILLED when filled, partially filled or not filled. 
+

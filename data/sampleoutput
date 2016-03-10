@@ -4,36 +4,36 @@
     "productID" : 3,
     "productName" : "C",
     "quantityAvailable" : 5,
-    "createdDate" : 1457637861798,
-    "updatedDate" : 1457637861798
+    "createdDate" : 1457642008281,
+    "updatedDate" : 1457642008281
   },
   "D" : {
     "productID" : 4,
     "productName" : "D",
     "quantityAvailable" : 5,
-    "createdDate" : 1457637861798,
-    "updatedDate" : 1457637861798
+    "createdDate" : 1457642008281,
+    "updatedDate" : 1457642008281
   },
   "E" : {
     "productID" : 5,
     "productName" : "E",
     "quantityAvailable" : 8,
-    "createdDate" : 1457637861798,
-    "updatedDate" : 1457637861798
+    "createdDate" : 1457642008281,
+    "updatedDate" : 1457642008281
   },
   "A" : {
     "productID" : 1,
     "productName" : "A",
     "quantityAvailable" : 10,
-    "createdDate" : 1457637861797,
-    "updatedDate" : 1457637861797
+    "createdDate" : 1457642008280,
+    "updatedDate" : 1457642008280
   },
   "B" : {
     "productID" : 2,
     "productName" : "B",
     "quantityAvailable" : 12,
-    "createdDate" : 1457637861798,
-    "updatedDate" : 1457637861798
+    "createdDate" : 1457642008281,
+    "updatedDate" : 1457642008281
   }
 }
 ########## Initial Product Inventory Ends ################
@@ -43,14 +43,14 @@
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "PROGRESS",
-    "createDate" : 1457637861870,
+    "createDate" : 1457642008325,
     "updateDate" : null,
     "product" : "A",
     "quantity" : 1
   }, {
     "filledQuantity" : 0,
     "lineStatus" : "PROGRESS",
-    "createDate" : 1457637861870,
+    "createDate" : 1457642008325,
     "updateDate" : null,
     "product" : "C",
     "quantity" : 1
@@ -58,7 +58,7 @@
   "orderStatus" : "PROGRESS",
   "totalLeftToFill" : 2,
   "totalQuantityOrdered" : 2,
-  "recvDate" : 1457637861870,
+  "recvDate" : 1457642008325,
   "fillDate" : null,
   "header" : 1
 }
@@ -67,7 +67,7 @@
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "PROGRESS",
-    "createDate" : 1457637861899,
+    "createDate" : 1457642008340,
     "updateDate" : null,
     "product" : "E",
     "quantity" : 5
@@ -75,7 +75,7 @@
   "orderStatus" : "PROGRESS",
   "totalLeftToFill" : 5,
   "totalQuantityOrdered" : 5,
-  "recvDate" : 1457637861899,
+  "recvDate" : 1457642008340,
   "fillDate" : null,
   "header" : 2
 }
@@ -84,7 +84,7 @@
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "PROGRESS",
-    "createDate" : 1457637861912,
+    "createDate" : 1457642008350,
     "updateDate" : null,
     "product" : "D",
     "quantity" : 4
@@ -92,7 +92,7 @@
   "orderStatus" : "PROGRESS",
   "totalLeftToFill" : 4,
   "totalQuantityOrdered" : 4,
-  "recvDate" : 1457637861912,
+  "recvDate" : 1457642008350,
   "fillDate" : null,
   "header" : 3
 }
@@ -101,14 +101,14 @@
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "PROGRESS",
-    "createDate" : 1457637861925,
+    "createDate" : 1457642008359,
     "updateDate" : null,
     "product" : "A",
     "quantity" : 1
   }, {
     "filledQuantity" : 0,
     "lineStatus" : "PROGRESS",
-    "createDate" : 1457637861925,
+    "createDate" : 1457642008359,
     "updateDate" : null,
     "product" : "C",
     "quantity" : 1
@@ -116,7 +116,7 @@
   "orderStatus" : "PROGRESS",
   "totalLeftToFill" : 2,
   "totalQuantityOrdered" : 2,
-  "recvDate" : 1457637861925,
+  "recvDate" : 1457642008359,
   "fillDate" : null,
   "header" : 4
 }
@@ -125,7 +125,7 @@
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "PROGRESS",
-    "createDate" : 1457637861940,
+    "createDate" : 1457642008368,
     "updateDate" : null,
     "product" : "B",
     "quantity" : 3
@@ -133,7 +133,7 @@
   "orderStatus" : "PROGRESS",
   "totalLeftToFill" : 3,
   "totalQuantityOrdered" : 3,
-  "recvDate" : 1457637861941,
+  "recvDate" : 1457642008368,
   "fillDate" : null,
   "header" : 5
 }
@@ -142,7 +142,7 @@
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "PROGRESS",
-    "createDate" : 1457637861954,
+    "createDate" : 1457642008376,
     "updateDate" : null,
     "product" : "D",
     "quantity" : 4
@@ -150,7 +150,7 @@
   "orderStatus" : "PROGRESS",
   "totalLeftToFill" : 4,
   "totalQuantityOrdered" : 4,
-  "recvDate" : 1457637861954,
+  "recvDate" : 1457642008376,
   "fillDate" : null,
   "header" : 6
 }
@@ -159,7 +159,7 @@
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "NOT_AVAILABLE",
-    "createDate" : 1457637861964,
+    "createDate" : 1457642008384,
     "updateDate" : null,
     "product" : "J",
     "quantity" : 4
@@ -167,7 +167,7 @@
   "orderStatus" : "INVALID",
   "totalLeftToFill" : 4,
   "totalQuantityOrdered" : 4,
-  "recvDate" : 1457637861964,
+  "recvDate" : 1457642008384,
   "fillDate" : null,
   "header" : 1
 }
@@ -176,14 +176,14 @@
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "PROGRESS",
-    "createDate" : 1457637861984,
+    "createDate" : 1457642008393,
     "updateDate" : null,
     "product" : "A",
     "quantity" : 1
   }, {
     "filledQuantity" : 0,
     "lineStatus" : "PROGRESS",
-    "createDate" : 1457637861984,
+    "createDate" : 1457642008393,
     "updateDate" : null,
     "product" : "C",
     "quantity" : 1
@@ -191,7 +191,7 @@
   "orderStatus" : "PROGRESS",
   "totalLeftToFill" : 2,
   "totalQuantityOrdered" : 2,
-  "recvDate" : 1457637861984,
+  "recvDate" : 1457642008393,
   "fillDate" : null,
   "header" : 4
 }
@@ -200,7 +200,7 @@
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "PROGRESS",
-    "createDate" : 1457637861996,
+    "createDate" : 1457642008401,
     "updateDate" : null,
     "product" : "B",
     "quantity" : 3
@@ -208,7 +208,7 @@
   "orderStatus" : "PROGRESS",
   "totalLeftToFill" : 3,
   "totalQuantityOrdered" : 3,
-  "recvDate" : 1457637861996,
+  "recvDate" : 1457642008401,
   "fillDate" : null,
   "header" : 5
 }
@@ -217,7 +217,7 @@
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "PROGRESS",
-    "createDate" : 1457637862008,
+    "createDate" : 1457642008408,
     "updateDate" : null,
     "product" : "D",
     "quantity" : 4
@@ -225,7 +225,7 @@
   "orderStatus" : "PROGRESS",
   "totalLeftToFill" : 4,
   "totalQuantityOrdered" : 4,
-  "recvDate" : 1457637862008,
+  "recvDate" : 1457642008409,
   "fillDate" : null,
   "header" : 6
 }
@@ -234,14 +234,14 @@
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "PROGRESS",
-    "createDate" : 1457637862022,
+    "createDate" : 1457642008416,
     "updateDate" : null,
     "product" : "A",
     "quantity" : 1
   }, {
     "filledQuantity" : 0,
     "lineStatus" : "PROGRESS",
-    "createDate" : 1457637862022,
+    "createDate" : 1457642008416,
     "updateDate" : null,
     "product" : "C",
     "quantity" : 1
@@ -249,7 +249,7 @@
   "orderStatus" : "PROGRESS",
   "totalLeftToFill" : 2,
   "totalQuantityOrdered" : 2,
-  "recvDate" : 1457637862022,
+  "recvDate" : 1457642008416,
   "fillDate" : null,
   "header" : 7
 }
@@ -258,7 +258,7 @@
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "PROGRESS",
-    "createDate" : 1457637862035,
+    "createDate" : 1457642008426,
     "updateDate" : null,
     "product" : "B",
     "quantity" : 3
@@ -266,7 +266,7 @@
   "orderStatus" : "PROGRESS",
   "totalLeftToFill" : 3,
   "totalQuantityOrdered" : 3,
-  "recvDate" : 1457637862035,
+  "recvDate" : 1457642008426,
   "fillDate" : null,
   "header" : 8
 }
@@ -275,7 +275,7 @@
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "PROGRESS",
-    "createDate" : 1457637862051,
+    "createDate" : 1457642008443,
     "updateDate" : null,
     "product" : "D",
     "quantity" : 4
@@ -283,7 +283,7 @@
   "orderStatus" : "PROGRESS",
   "totalLeftToFill" : 4,
   "totalQuantityOrdered" : 4,
-  "recvDate" : 1457637862051,
+  "recvDate" : 1457642008443,
   "fillDate" : null,
   "header" : 9
 }
@@ -292,14 +292,14 @@
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "PROGRESS",
-    "createDate" : 1457637862060,
+    "createDate" : 1457642008451,
     "updateDate" : null,
     "product" : "A",
     "quantity" : 1
   }, {
     "filledQuantity" : 0,
     "lineStatus" : "PROGRESS",
-    "createDate" : 1457637862060,
+    "createDate" : 1457642008451,
     "updateDate" : null,
     "product" : "C",
     "quantity" : 1
@@ -307,7 +307,7 @@
   "orderStatus" : "PROGRESS",
   "totalLeftToFill" : 2,
   "totalQuantityOrdered" : 2,
-  "recvDate" : 1457637862060,
+  "recvDate" : 1457642008451,
   "fillDate" : null,
   "header" : 10
 }
@@ -316,7 +316,7 @@
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "PROGRESS",
-    "createDate" : 1457637862073,
+    "createDate" : 1457642008458,
     "updateDate" : null,
     "product" : "B",
     "quantity" : 3
@@ -324,7 +324,7 @@
   "orderStatus" : "PROGRESS",
   "totalLeftToFill" : 3,
   "totalQuantityOrdered" : 3,
-  "recvDate" : 1457637862073,
+  "recvDate" : 1457642008458,
   "fillDate" : null,
   "header" : 11
 }
@@ -333,7 +333,7 @@
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "PROGRESS",
-    "createDate" : 1457637862085,
+    "createDate" : 1457642008466,
     "updateDate" : null,
     "product" : "A",
     "quantity" : 4
@@ -341,7 +341,7 @@
   "orderStatus" : "PROGRESS",
   "totalLeftToFill" : 4,
   "totalQuantityOrdered" : 4,
-  "recvDate" : 1457637862085,
+  "recvDate" : 1457642008466,
   "fillDate" : null,
   "header" : 12
 }
@@ -350,14 +350,14 @@
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "PROGRESS",
-    "createDate" : 1457637862099,
+    "createDate" : 1457642008476,
     "updateDate" : null,
     "product" : "A",
     "quantity" : 1
   }, {
     "filledQuantity" : 0,
     "lineStatus" : "PROGRESS",
-    "createDate" : 1457637862099,
+    "createDate" : 1457642008476,
     "updateDate" : null,
     "product" : "C",
     "quantity" : 1
@@ -365,7 +365,7 @@
   "orderStatus" : "PROGRESS",
   "totalLeftToFill" : 2,
   "totalQuantityOrdered" : 2,
-  "recvDate" : 1457637862099,
+  "recvDate" : 1457642008476,
   "fillDate" : null,
   "header" : 11
 }
@@ -374,7 +374,7 @@
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "PROGRESS",
-    "createDate" : 1457637862109,
+    "createDate" : 1457642008486,
     "updateDate" : null,
     "product" : "B",
     "quantity" : 3
@@ -382,7 +382,7 @@
   "orderStatus" : "PROGRESS",
   "totalLeftToFill" : 3,
   "totalQuantityOrdered" : 3,
-  "recvDate" : 1457637862109,
+  "recvDate" : 1457642008486,
   "fillDate" : null,
   "header" : 13
 }
@@ -391,7 +391,7 @@
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "PROGRESS",
-    "createDate" : 1457637862122,
+    "createDate" : 1457642008495,
     "updateDate" : null,
     "product" : "A",
     "quantity" : 4
@@ -399,7 +399,7 @@
   "orderStatus" : "PROGRESS",
   "totalLeftToFill" : 4,
   "totalQuantityOrdered" : 4,
-  "recvDate" : 1457637862122,
+  "recvDate" : 1457642008495,
   "fillDate" : null,
   "header" : 14
 }
@@ -408,14 +408,14 @@
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "PROGRESS",
-    "createDate" : 1457637862131,
+    "createDate" : 1457642008502,
     "updateDate" : null,
     "product" : "A",
     "quantity" : 1
   }, {
     "filledQuantity" : 0,
     "lineStatus" : "PROGRESS",
-    "createDate" : 1457637862131,
+    "createDate" : 1457642008502,
     "updateDate" : null,
     "product" : "C",
     "quantity" : 5
@@ -423,7 +423,7 @@
   "orderStatus" : "PROGRESS",
   "totalLeftToFill" : 6,
   "totalQuantityOrdered" : 6,
-  "recvDate" : 1457637862131,
+  "recvDate" : 1457642008502,
   "fillDate" : null,
   "header" : 15
 }
@@ -432,7 +432,7 @@
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "PROGRESS",
-    "createDate" : 1457637862145,
+    "createDate" : 1457642008510,
     "updateDate" : null,
     "product" : "B",
     "quantity" : 3
@@ -440,7 +440,7 @@
   "orderStatus" : "PROGRESS",
   "totalLeftToFill" : 3,
   "totalQuantityOrdered" : 3,
-  "recvDate" : 1457637862145,
+  "recvDate" : 1457642008510,
   "fillDate" : null,
   "header" : 16
 }
@@ -449,7 +449,7 @@
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "PROGRESS",
-    "createDate" : 1457637862155,
+    "createDate" : 1457642008516,
     "updateDate" : null,
     "product" : "A",
     "quantity" : 4
@@ -457,7 +457,7 @@
   "orderStatus" : "PROGRESS",
   "totalLeftToFill" : 4,
   "totalQuantityOrdered" : 4,
-  "recvDate" : 1457637862155,
+  "recvDate" : 1457642008516,
   "fillDate" : null,
   "header" : 17
 }
@@ -466,7 +466,7 @@
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "PROGRESS",
-    "createDate" : 1457637862173,
+    "createDate" : 1457642008523,
     "updateDate" : null,
     "product" : "E",
     "quantity" : 5
@@ -474,7 +474,7 @@
   "orderStatus" : "PROGRESS",
   "totalLeftToFill" : 5,
   "totalQuantityOrdered" : 5,
-  "recvDate" : 1457637862173,
+  "recvDate" : 1457642008523,
   "fillDate" : null,
   "header" : 2
 }
@@ -487,23 +487,23 @@ Producer finished its job; terminating.
   "lines" : [ {
     "filledQuantity" : 1,
     "lineStatus" : "FILLED",
-    "createDate" : 1457637861870,
-    "updateDate" : 1457637862215,
+    "createDate" : 1457642008325,
+    "updateDate" : 1457642008545,
     "product" : "A",
     "quantity" : 1
   }, {
     "filledQuantity" : 1,
     "lineStatus" : "FILLED",
-    "createDate" : 1457637861870,
-    "updateDate" : 1457637862215,
+    "createDate" : 1457642008325,
+    "updateDate" : 1457642008545,
     "product" : "C",
     "quantity" : 1
   } ],
   "orderStatus" : "FILLED",
   "totalLeftToFill" : 0,
   "totalQuantityOrdered" : 2,
-  "recvDate" : 1457637861870,
-  "fillDate" : 1457637862215,
+  "recvDate" : 1457642008325,
+  "fillDate" : 1457642008545,
   "header" : 1
 }
 {
@@ -511,16 +511,16 @@ Producer finished its job; terminating.
   "lines" : [ {
     "filledQuantity" : 5,
     "lineStatus" : "FILLED",
-    "createDate" : 1457637861899,
-    "updateDate" : 1457637862228,
+    "createDate" : 1457642008340,
+    "updateDate" : 1457642008552,
     "product" : "E",
     "quantity" : 5
   } ],
   "orderStatus" : "FILLED",
   "totalLeftToFill" : 0,
   "totalQuantityOrdered" : 5,
-  "recvDate" : 1457637861899,
-  "fillDate" : 1457637862228,
+  "recvDate" : 1457642008340,
+  "fillDate" : 1457642008552,
   "header" : 2
 }
 {
@@ -528,16 +528,16 @@ Producer finished its job; terminating.
   "lines" : [ {
     "filledQuantity" : 4,
     "lineStatus" : "FILLED",
-    "createDate" : 1457637861912,
-    "updateDate" : 1457637862243,
+    "createDate" : 1457642008350,
+    "updateDate" : 1457642008559,
     "product" : "D",
     "quantity" : 4
   } ],
   "orderStatus" : "FILLED",
   "totalLeftToFill" : 0,
   "totalQuantityOrdered" : 4,
-  "recvDate" : 1457637861912,
-  "fillDate" : 1457637862243,
+  "recvDate" : 1457642008350,
+  "fillDate" : 1457642008559,
   "header" : 3
 }
 {
@@ -545,23 +545,23 @@ Producer finished its job; terminating.
   "lines" : [ {
     "filledQuantity" : 1,
     "lineStatus" : "FILLED",
-    "createDate" : 1457637861925,
-    "updateDate" : 1457637862256,
+    "createDate" : 1457642008359,
+    "updateDate" : 1457642008568,
     "product" : "A",
     "quantity" : 1
   }, {
     "filledQuantity" : 1,
     "lineStatus" : "FILLED",
-    "createDate" : 1457637861925,
-    "updateDate" : 1457637862256,
+    "createDate" : 1457642008359,
+    "updateDate" : 1457642008568,
     "product" : "C",
     "quantity" : 1
   } ],
   "orderStatus" : "FILLED",
   "totalLeftToFill" : 0,
   "totalQuantityOrdered" : 2,
-  "recvDate" : 1457637861925,
-  "fillDate" : 1457637862256,
+  "recvDate" : 1457642008359,
+  "fillDate" : 1457642008568,
   "header" : 4
 }
 {
@@ -569,16 +569,16 @@ Producer finished its job; terminating.
   "lines" : [ {
     "filledQuantity" : 3,
     "lineStatus" : "FILLED",
-    "createDate" : 1457637861940,
-    "updateDate" : 1457637862266,
+    "createDate" : 1457642008368,
+    "updateDate" : 1457642008576,
     "product" : "B",
     "quantity" : 3
   } ],
   "orderStatus" : "FILLED",
   "totalLeftToFill" : 0,
   "totalQuantityOrdered" : 3,
-  "recvDate" : 1457637861941,
-  "fillDate" : 1457637862266,
+  "recvDate" : 1457642008368,
+  "fillDate" : 1457642008576,
   "header" : 5
 }
 {
@@ -586,15 +586,15 @@ Producer finished its job; terminating.
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "BACK_ORDER",
-    "createDate" : 1457637861954,
-    "updateDate" : 1457637862280,
+    "createDate" : 1457642008376,
+    "updateDate" : 1457642008587,
     "product" : "D",
     "quantity" : 4
   } ],
   "orderStatus" : "NOT_FILLED",
   "totalLeftToFill" : 4,
   "totalQuantityOrdered" : 4,
-  "recvDate" : 1457637861954,
+  "recvDate" : 1457642008376,
   "fillDate" : null,
   "header" : 6
 }
@@ -603,23 +603,23 @@ Producer finished its job; terminating.
   "lines" : [ {
     "filledQuantity" : 1,
     "lineStatus" : "FILLED",
-    "createDate" : 1457637861984,
-    "updateDate" : 1457637862289,
+    "createDate" : 1457642008393,
+    "updateDate" : 1457642008596,
     "product" : "A",
     "quantity" : 1
   }, {
     "filledQuantity" : 1,
     "lineStatus" : "FILLED",
-    "createDate" : 1457637861984,
-    "updateDate" : 1457637862289,
+    "createDate" : 1457642008393,
+    "updateDate" : 1457642008596,
     "product" : "C",
     "quantity" : 1
   } ],
   "orderStatus" : "FILLED",
   "totalLeftToFill" : 0,
   "totalQuantityOrdered" : 2,
-  "recvDate" : 1457637861984,
-  "fillDate" : 1457637862289,
+  "recvDate" : 1457642008393,
+  "fillDate" : 1457642008596,
   "header" : 4
 }
 {
@@ -627,16 +627,16 @@ Producer finished its job; terminating.
   "lines" : [ {
     "filledQuantity" : 3,
     "lineStatus" : "FILLED",
-    "createDate" : 1457637861996,
-    "updateDate" : 1457637862297,
+    "createDate" : 1457642008401,
+    "updateDate" : 1457642008601,
     "product" : "B",
     "quantity" : 3
   } ],
   "orderStatus" : "FILLED",
   "totalLeftToFill" : 0,
   "totalQuantityOrdered" : 3,
-  "recvDate" : 1457637861996,
-  "fillDate" : 1457637862297,
+  "recvDate" : 1457642008401,
+  "fillDate" : 1457642008601,
   "header" : 5
 }
 {
@@ -644,15 +644,15 @@ Producer finished its job; terminating.
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "BACK_ORDER",
-    "createDate" : 1457637862008,
-    "updateDate" : 1457637862303,
+    "createDate" : 1457642008408,
+    "updateDate" : 1457642008606,
     "product" : "D",
     "quantity" : 4
   } ],
   "orderStatus" : "NOT_FILLED",
   "totalLeftToFill" : 4,
   "totalQuantityOrdered" : 4,
-  "recvDate" : 1457637862008,
+  "recvDate" : 1457642008409,
   "fillDate" : null,
   "header" : 6
 }
@@ -661,23 +661,23 @@ Producer finished its job; terminating.
   "lines" : [ {
     "filledQuantity" : 1,
     "lineStatus" : "FILLED",
-    "createDate" : 1457637862022,
-    "updateDate" : 1457637862312,
+    "createDate" : 1457642008416,
+    "updateDate" : 1457642008612,
     "product" : "A",
     "quantity" : 1
   }, {
     "filledQuantity" : 1,
     "lineStatus" : "FILLED",
-    "createDate" : 1457637862022,
-    "updateDate" : 1457637862312,
+    "createDate" : 1457642008416,
+    "updateDate" : 1457642008612,
     "product" : "C",
     "quantity" : 1
   } ],
   "orderStatus" : "FILLED",
   "totalLeftToFill" : 0,
   "totalQuantityOrdered" : 2,
-  "recvDate" : 1457637862022,
-  "fillDate" : 1457637862312,
+  "recvDate" : 1457642008416,
+  "fillDate" : 1457642008612,
   "header" : 7
 }
 {
@@ -685,16 +685,16 @@ Producer finished its job; terminating.
   "lines" : [ {
     "filledQuantity" : 3,
     "lineStatus" : "FILLED",
-    "createDate" : 1457637862035,
-    "updateDate" : 1457637862318,
+    "createDate" : 1457642008426,
+    "updateDate" : 1457642008617,
     "product" : "B",
     "quantity" : 3
   } ],
   "orderStatus" : "FILLED",
   "totalLeftToFill" : 0,
   "totalQuantityOrdered" : 3,
-  "recvDate" : 1457637862035,
-  "fillDate" : 1457637862318,
+  "recvDate" : 1457642008426,
+  "fillDate" : 1457642008617,
   "header" : 8
 }
 {
@@ -702,15 +702,15 @@ Producer finished its job; terminating.
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "BACK_ORDER",
-    "createDate" : 1457637862051,
-    "updateDate" : 1457637862326,
+    "createDate" : 1457642008443,
+    "updateDate" : 1457642008623,
     "product" : "D",
     "quantity" : 4
   } ],
   "orderStatus" : "NOT_FILLED",
   "totalLeftToFill" : 4,
   "totalQuantityOrdered" : 4,
-  "recvDate" : 1457637862051,
+  "recvDate" : 1457642008443,
   "fillDate" : null,
   "header" : 9
 }
@@ -719,23 +719,23 @@ Producer finished its job; terminating.
   "lines" : [ {
     "filledQuantity" : 1,
     "lineStatus" : "FILLED",
-    "createDate" : 1457637862060,
-    "updateDate" : 1457637862332,
+    "createDate" : 1457642008451,
+    "updateDate" : 1457642008630,
     "product" : "A",
     "quantity" : 1
   }, {
     "filledQuantity" : 1,
     "lineStatus" : "FILLED",
-    "createDate" : 1457637862060,
-    "updateDate" : 1457637862332,
+    "createDate" : 1457642008451,
+    "updateDate" : 1457642008630,
     "product" : "C",
     "quantity" : 1
   } ],
   "orderStatus" : "FILLED",
   "totalLeftToFill" : 0,
   "totalQuantityOrdered" : 2,
-  "recvDate" : 1457637862060,
-  "fillDate" : 1457637862332,
+  "recvDate" : 1457642008451,
+  "fillDate" : 1457642008630,
   "header" : 10
 }
 {
@@ -743,16 +743,16 @@ Producer finished its job; terminating.
   "lines" : [ {
     "filledQuantity" : 3,
     "lineStatus" : "FILLED",
-    "createDate" : 1457637862073,
-    "updateDate" : 1457637862343,
+    "createDate" : 1457642008458,
+    "updateDate" : 1457642008636,
     "product" : "B",
     "quantity" : 3
   } ],
   "orderStatus" : "FILLED",
   "totalLeftToFill" : 0,
   "totalQuantityOrdered" : 3,
-  "recvDate" : 1457637862073,
-  "fillDate" : 1457637862343,
+  "recvDate" : 1457642008458,
+  "fillDate" : 1457642008636,
   "header" : 11
 }
 {
@@ -760,16 +760,16 @@ Producer finished its job; terminating.
   "lines" : [ {
     "filledQuantity" : 4,
     "lineStatus" : "FILLED",
-    "createDate" : 1457637862085,
-    "updateDate" : 1457637862352,
+    "createDate" : 1457642008466,
+    "updateDate" : 1457642008641,
     "product" : "A",
     "quantity" : 4
   } ],
   "orderStatus" : "FILLED",
   "totalLeftToFill" : 0,
   "totalQuantityOrdered" : 4,
-  "recvDate" : 1457637862085,
-  "fillDate" : 1457637862352,
+  "recvDate" : 1457642008466,
+  "fillDate" : 1457642008641,
   "header" : 12
 }
 {
@@ -777,22 +777,22 @@ Producer finished its job; terminating.
   "lines" : [ {
     "filledQuantity" : 1,
     "lineStatus" : "FILLED",
-    "createDate" : 1457637862099,
-    "updateDate" : 1457637862362,
+    "createDate" : 1457642008476,
+    "updateDate" : 1457642008646,
     "product" : "A",
     "quantity" : 1
   }, {
     "filledQuantity" : 0,
     "lineStatus" : "BACK_ORDER",
-    "createDate" : 1457637862099,
-    "updateDate" : 1457637862362,
+    "createDate" : 1457642008476,
+    "updateDate" : 1457642008646,
     "product" : "C",
     "quantity" : 1
   } ],
   "orderStatus" : "PARTIAL",
   "totalLeftToFill" : 1,
   "totalQuantityOrdered" : 2,
-  "recvDate" : 1457637862099,
+  "recvDate" : 1457642008476,
   "fillDate" : null,
   "header" : 11
 }
@@ -801,15 +801,15 @@ Producer finished its job; terminating.
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "BACK_ORDER",
-    "createDate" : 1457637862109,
-    "updateDate" : 1457637862371,
+    "createDate" : 1457642008486,
+    "updateDate" : 1457642008652,
     "product" : "B",
     "quantity" : 3
   } ],
   "orderStatus" : "NOT_FILLED",
   "totalLeftToFill" : 3,
   "totalQuantityOrdered" : 3,
-  "recvDate" : 1457637862109,
+  "recvDate" : 1457642008486,
   "fillDate" : null,
   "header" : 13
 }
@@ -818,15 +818,15 @@ Producer finished its job; terminating.
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "BACK_ORDER",
-    "createDate" : 1457637862122,
-    "updateDate" : 1457637862382,
+    "createDate" : 1457642008495,
+    "updateDate" : 1457642008657,
     "product" : "A",
     "quantity" : 4
   } ],
   "orderStatus" : "NOT_FILLED",
   "totalLeftToFill" : 4,
   "totalQuantityOrdered" : 4,
-  "recvDate" : 1457637862122,
+  "recvDate" : 1457642008495,
   "fillDate" : null,
   "header" : 14
 }
@@ -835,22 +835,22 @@ Producer finished its job; terminating.
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "BACK_ORDER",
-    "createDate" : 1457637862131,
-    "updateDate" : 1457637862397,
+    "createDate" : 1457642008502,
+    "updateDate" : 1457642008663,
     "product" : "A",
     "quantity" : 1
   }, {
     "filledQuantity" : 0,
     "lineStatus" : "BACK_ORDER",
-    "createDate" : 1457637862131,
-    "updateDate" : 1457637862397,
+    "createDate" : 1457642008502,
+    "updateDate" : 1457642008663,
     "product" : "C",
     "quantity" : 5
   } ],
   "orderStatus" : "NOT_FILLED",
   "totalLeftToFill" : 6,
   "totalQuantityOrdered" : 6,
-  "recvDate" : 1457637862131,
+  "recvDate" : 1457642008502,
   "fillDate" : null,
   "header" : 15
 }
@@ -859,15 +859,15 @@ Producer finished its job; terminating.
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "BACK_ORDER",
-    "createDate" : 1457637862145,
-    "updateDate" : 1457637862408,
+    "createDate" : 1457642008510,
+    "updateDate" : 1457642008671,
     "product" : "B",
     "quantity" : 3
   } ],
   "orderStatus" : "NOT_FILLED",
   "totalLeftToFill" : 3,
   "totalQuantityOrdered" : 3,
-  "recvDate" : 1457637862145,
+  "recvDate" : 1457642008510,
   "fillDate" : null,
   "header" : 16
 }
@@ -876,15 +876,15 @@ Producer finished its job; terminating.
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "BACK_ORDER",
-    "createDate" : 1457637862155,
-    "updateDate" : 1457637862417,
+    "createDate" : 1457642008516,
+    "updateDate" : 1457642008678,
     "product" : "A",
     "quantity" : 4
   } ],
   "orderStatus" : "NOT_FILLED",
   "totalLeftToFill" : 4,
   "totalQuantityOrdered" : 4,
-  "recvDate" : 1457637862155,
+  "recvDate" : 1457642008516,
   "fillDate" : null,
   "header" : 17
 }
@@ -893,15 +893,15 @@ Producer finished its job; terminating.
   "lines" : [ {
     "filledQuantity" : 0,
     "lineStatus" : "BACK_ORDER",
-    "createDate" : 1457637862173,
-    "updateDate" : 1457637862425,
+    "createDate" : 1457642008523,
+    "updateDate" : 1457642008684,
     "product" : "E",
     "quantity" : 5
   } ],
   "orderStatus" : "NOT_FILLED",
   "totalLeftToFill" : 5,
   "totalQuantityOrdered" : 5,
-  "recvDate" : 1457637862173,
+  "recvDate" : 1457642008523,
   "fillDate" : null,
   "header" : 2
 }
@@ -912,36 +912,36 @@ Producer finished its job; terminating.
     "productID" : 3,
     "productName" : "C",
     "quantityAvailable" : 0,
-    "createdDate" : 1457637861798,
-    "updatedDate" : 1457637861798
+    "createdDate" : 1457642008281,
+    "updatedDate" : 1457642008281
   },
   "D" : {
     "productID" : 4,
     "productName" : "D",
     "quantityAvailable" : 0,
-    "createdDate" : 1457637861798,
-    "updatedDate" : 1457637861798
+    "createdDate" : 1457642008281,
+    "updatedDate" : 1457642008281
   },
   "E" : {
     "productID" : 5,
     "productName" : "E",
     "quantityAvailable" : 0,
-    "createdDate" : 1457637861798,
-    "updatedDate" : 1457637861798
+    "createdDate" : 1457642008281,
+    "updatedDate" : 1457642008281
   },
   "A" : {
     "productID" : 1,
     "productName" : "A",
     "quantityAvailable" : 0,
-    "createdDate" : 1457637861797,
-    "updatedDate" : 1457637861797
+    "createdDate" : 1457642008280,
+    "updatedDate" : 1457642008280
   },
   "B" : {
     "productID" : 2,
     "productName" : "B",
     "quantityAvailable" : 0,
-    "createdDate" : 1457637861798,
-    "updatedDate" : 1457637861798
+    "createdDate" : 1457642008281,
+    "updatedDate" : 1457642008281
   }
 }
 ########## Inventory Status after product fill end  ################

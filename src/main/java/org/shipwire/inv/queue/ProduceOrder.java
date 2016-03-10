@@ -115,7 +115,9 @@ public class ProduceOrder {
                 //System.out.println(jsonStr) ;
                 order.printOrderJson();
                 try {
-                    broker.put(order);
+		    if (!inValidOrder) {
+                      broker.put(order);
+		    }
                 } catch (InterruptedException e) {
                     //System.out.println() ;
                 }
