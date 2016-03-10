@@ -78,6 +78,7 @@ public class ProduceOrder {
                     // System.out.println(prodObj.toString()) ;
                     Lines lines = new Lines();
                     int quantity = Integer.parseInt((String) itemObj.get("Quantity"));
+		    lines.setLineStatus(STATUS.PROGRESS) ;
                     if (quantity < InventoryConstants.MIN_ORDER ||
                             quantity > InventoryConstants.MAX_ORDER) {
                         //System.out.println(" The value of Quantity and product is " + quantity + " " + (String) itemObj.get("Product"));
@@ -104,6 +105,9 @@ public class ProduceOrder {
                 if (inValidOrder) {
                     order.setOrderStatus(STATUS.INVALID);
                 }
+		else {
+                    order.setOrderStatus(STATUS.PROGRESS);
+		}
 
 
                 //System.out.println(json.get("Header")) ;
