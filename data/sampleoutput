@@ -1,0 +1,650 @@
+########## Current Product Inventory Begin ################
+{
+  "C" : {
+    "productID" : 3,
+    "productName" : "C",
+    "quantityAvailable" : 5,
+    "createdDate" : 1457595753907,
+    "updatedDate" : 1457595753907
+  },
+  "D" : {
+    "productID" : 4,
+    "productName" : "D",
+    "quantityAvailable" : 5,
+    "createdDate" : 1457595753907,
+    "updatedDate" : 1457595753907
+  },
+  "E" : {
+    "productID" : 5,
+    "productName" : "E",
+    "quantityAvailable" : 8,
+    "createdDate" : 1457595753907,
+    "updatedDate" : 1457595753907
+  },
+  "A" : {
+    "productID" : 1,
+    "productName" : "A",
+    "quantityAvailable" : 10,
+    "createdDate" : 1457595753906,
+    "updatedDate" : 1457595753906
+  },
+  "B" : {
+    "productID" : 2,
+    "productName" : "B",
+    "quantityAvailable" : 12,
+    "createdDate" : 1457595753907,
+    "updatedDate" : 1457595753907
+  }
+}
+########## Current Product Inventory Ends ################
+########## Current Orders Begin ################
+{
+  "orderID" : 1,
+  "lines" : [ {
+    "filledQuantity" : 0,
+    "lineStatus" : null,
+    "createDate" : 1457595753951,
+    "updateDate" : null,
+    "product" : "A",
+    "quantity" : 1
+  }, {
+    "filledQuantity" : 0,
+    "lineStatus" : null,
+    "createDate" : 1457595753951,
+    "updateDate" : null,
+    "product" : "C",
+    "quantity" : 1
+  } ],
+  "orderStatus" : null,
+  "totalLeftToFill" : 2,
+  "recvDate" : 1457595753951,
+  "fillDate" : null,
+  "header" : 1
+}
+{
+  "orderID" : 2,
+  "lines" : [ {
+    "filledQuantity" : 0,
+    "lineStatus" : null,
+    "createDate" : 1457595753969,
+    "updateDate" : null,
+    "product" : "E",
+    "quantity" : 5
+  } ],
+  "orderStatus" : null,
+  "totalLeftToFill" : 5,
+  "recvDate" : 1457595753969,
+  "fillDate" : null,
+  "header" : 2
+}
+{
+  "orderID" : 3,
+  "lines" : [ {
+    "filledQuantity" : 0,
+    "lineStatus" : null,
+    "createDate" : 1457595753979,
+    "updateDate" : null,
+    "product" : "D",
+    "quantity" : 4
+  } ],
+  "orderStatus" : null,
+  "totalLeftToFill" : 4,
+  "recvDate" : 1457595753979,
+  "fillDate" : null,
+  "header" : 3
+}
+{
+  "orderID" : 4,
+  "lines" : [ {
+    "filledQuantity" : 0,
+    "lineStatus" : null,
+    "createDate" : 1457595753989,
+    "updateDate" : null,
+    "product" : "A",
+    "quantity" : 1
+  }, {
+    "filledQuantity" : 0,
+    "lineStatus" : null,
+    "createDate" : 1457595753989,
+    "updateDate" : null,
+    "product" : "C",
+    "quantity" : 1
+  } ],
+  "orderStatus" : null,
+  "totalLeftToFill" : 2,
+  "recvDate" : 1457595753989,
+  "fillDate" : null,
+  "header" : 4
+}
+{
+  "orderID" : 5,
+  "lines" : [ {
+    "filledQuantity" : 0,
+    "lineStatus" : null,
+    "createDate" : 1457595754000,
+    "updateDate" : null,
+    "product" : "B",
+    "quantity" : 3
+  } ],
+  "orderStatus" : null,
+  "totalLeftToFill" : 3,
+  "recvDate" : 1457595754000,
+  "fillDate" : null,
+  "header" : 5
+}
+{
+  "orderID" : 6,
+  "lines" : [ {
+    "filledQuantity" : 0,
+    "lineStatus" : null,
+    "createDate" : 1457595754010,
+    "updateDate" : null,
+    "product" : "D",
+    "quantity" : 4
+  } ],
+  "orderStatus" : null,
+  "totalLeftToFill" : 4,
+  "recvDate" : 1457595754010,
+  "fillDate" : null,
+  "header" : 6
+}
+{
+  "orderID" : 7,
+  "lines" : [ {
+    "filledQuantity" : 0,
+    "lineStatus" : "NOT_AVAILABLE",
+    "createDate" : 1457595754018,
+    "updateDate" : null,
+    "product" : "J",
+    "quantity" : 4
+  } ],
+  "orderStatus" : "INVALID",
+  "totalLeftToFill" : 4,
+  "recvDate" : 1457595754018,
+  "fillDate" : null,
+  "header" : 1
+}
+{
+  "orderID" : 8,
+  "lines" : [ {
+    "filledQuantity" : 0,
+    "lineStatus" : null,
+    "createDate" : 1457595754027,
+    "updateDate" : null,
+    "product" : "A",
+    "quantity" : 1
+  }, {
+    "filledQuantity" : 0,
+    "lineStatus" : null,
+    "createDate" : 1457595754027,
+    "updateDate" : null,
+    "product" : "C",
+    "quantity" : 1
+  } ],
+  "orderStatus" : null,
+  "totalLeftToFill" : 2,
+  "recvDate" : 1457595754027,
+  "fillDate" : null,
+  "header" : 4
+}
+{
+  "orderID" : 9,
+  "lines" : [ {
+    "filledQuantity" : 0,
+    "lineStatus" : null,
+    "createDate" : 1457595754035,
+    "updateDate" : null,
+    "product" : "B",
+    "quantity" : 3
+  } ],
+  "orderStatus" : null,
+  "totalLeftToFill" : 3,
+  "recvDate" : 1457595754035,
+  "fillDate" : null,
+  "header" : 5
+}
+{
+  "orderID" : 10,
+  "lines" : [ {
+    "filledQuantity" : 0,
+    "lineStatus" : null,
+    "createDate" : 1457595754043,
+    "updateDate" : null,
+    "product" : "D",
+    "quantity" : 4
+  } ],
+  "orderStatus" : null,
+  "totalLeftToFill" : 4,
+  "recvDate" : 1457595754043,
+  "fillDate" : null,
+  "header" : 6
+}
+{
+  "orderID" : 11,
+  "lines" : [ {
+    "filledQuantity" : 0,
+    "lineStatus" : null,
+    "createDate" : 1457595754050,
+    "updateDate" : null,
+    "product" : "A",
+    "quantity" : 1
+  }, {
+    "filledQuantity" : 0,
+    "lineStatus" : null,
+    "createDate" : 1457595754050,
+    "updateDate" : null,
+    "product" : "C",
+    "quantity" : 1
+  } ],
+  "orderStatus" : null,
+  "totalLeftToFill" : 2,
+  "recvDate" : 1457595754050,
+  "fillDate" : null,
+  "header" : 7
+}
+{
+  "orderID" : 12,
+  "lines" : [ {
+    "filledQuantity" : 0,
+    "lineStatus" : null,
+    "createDate" : 1457595754058,
+    "updateDate" : null,
+    "product" : "B",
+    "quantity" : 3
+  } ],
+  "orderStatus" : null,
+  "totalLeftToFill" : 3,
+  "recvDate" : 1457595754058,
+  "fillDate" : null,
+  "header" : 8
+}
+{
+  "orderID" : 13,
+  "lines" : [ {
+    "filledQuantity" : 0,
+    "lineStatus" : null,
+    "createDate" : 1457595754073,
+    "updateDate" : null,
+    "product" : "D",
+    "quantity" : 4
+  } ],
+  "orderStatus" : null,
+  "totalLeftToFill" : 4,
+  "recvDate" : 1457595754073,
+  "fillDate" : null,
+  "header" : 9
+}
+{
+  "orderID" : 14,
+  "lines" : [ {
+    "filledQuantity" : 0,
+    "lineStatus" : null,
+    "createDate" : 1457595754080,
+    "updateDate" : null,
+    "product" : "A",
+    "quantity" : 1
+  }, {
+    "filledQuantity" : 0,
+    "lineStatus" : null,
+    "createDate" : 1457595754080,
+    "updateDate" : null,
+    "product" : "C",
+    "quantity" : 1
+  } ],
+  "orderStatus" : null,
+  "totalLeftToFill" : 2,
+  "recvDate" : 1457595754080,
+  "fillDate" : null,
+  "header" : 10
+}
+{
+  "orderID" : 15,
+  "lines" : [ {
+    "filledQuantity" : 0,
+    "lineStatus" : null,
+    "createDate" : 1457595754087,
+    "updateDate" : null,
+    "product" : "B",
+    "quantity" : 3
+  } ],
+  "orderStatus" : null,
+  "totalLeftToFill" : 3,
+  "recvDate" : 1457595754087,
+  "fillDate" : null,
+  "header" : 11
+}
+{
+  "orderID" : 16,
+  "lines" : [ {
+    "filledQuantity" : 0,
+    "lineStatus" : null,
+    "createDate" : 1457595754094,
+    "updateDate" : null,
+    "product" : "A",
+    "quantity" : 4
+  } ],
+  "orderStatus" : null,
+  "totalLeftToFill" : 4,
+  "recvDate" : 1457595754094,
+  "fillDate" : null,
+  "header" : 12
+}
+########## Current Orders End  ################
+Producer finished its job; terminating.
+########## Orders Status begin ################
+{
+  "orderID" : 1,
+  "lines" : [ {
+    "filledQuantity" : 1,
+    "lineStatus" : "FILLED",
+    "createDate" : 1457595753951,
+    "updateDate" : 1457595754107,
+    "product" : "A",
+    "quantity" : 1
+  }, {
+    "filledQuantity" : 1,
+    "lineStatus" : "FILLED",
+    "createDate" : 1457595753951,
+    "updateDate" : 1457595754107,
+    "product" : "C",
+    "quantity" : 1
+  } ],
+  "orderStatus" : "FILLED",
+  "totalLeftToFill" : 0,
+  "recvDate" : 1457595753951,
+  "fillDate" : 1457595754107,
+  "header" : 1
+}
+{
+  "orderID" : 2,
+  "lines" : [ {
+    "filledQuantity" : 5,
+    "lineStatus" : "FILLED",
+    "createDate" : 1457595753969,
+    "updateDate" : 1457595754114,
+    "product" : "E",
+    "quantity" : 5
+  } ],
+  "orderStatus" : "FILLED",
+  "totalLeftToFill" : 0,
+  "recvDate" : 1457595753969,
+  "fillDate" : 1457595754114,
+  "header" : 2
+}
+{
+  "orderID" : 3,
+  "lines" : [ {
+    "filledQuantity" : 4,
+    "lineStatus" : "FILLED",
+    "createDate" : 1457595753979,
+    "updateDate" : 1457595754121,
+    "product" : "D",
+    "quantity" : 4
+  } ],
+  "orderStatus" : "FILLED",
+  "totalLeftToFill" : 0,
+  "recvDate" : 1457595753979,
+  "fillDate" : 1457595754121,
+  "header" : 3
+}
+{
+  "orderID" : 4,
+  "lines" : [ {
+    "filledQuantity" : 1,
+    "lineStatus" : "FILLED",
+    "createDate" : 1457595753989,
+    "updateDate" : 1457595754128,
+    "product" : "A",
+    "quantity" : 1
+  }, {
+    "filledQuantity" : 1,
+    "lineStatus" : "FILLED",
+    "createDate" : 1457595753989,
+    "updateDate" : 1457595754128,
+    "product" : "C",
+    "quantity" : 1
+  } ],
+  "orderStatus" : "FILLED",
+  "totalLeftToFill" : 0,
+  "recvDate" : 1457595753989,
+  "fillDate" : 1457595754128,
+  "header" : 4
+}
+{
+  "orderID" : 5,
+  "lines" : [ {
+    "filledQuantity" : 3,
+    "lineStatus" : "FILLED",
+    "createDate" : 1457595754000,
+    "updateDate" : 1457595754134,
+    "product" : "B",
+    "quantity" : 3
+  } ],
+  "orderStatus" : "FILLED",
+  "totalLeftToFill" : 0,
+  "recvDate" : 1457595754000,
+  "fillDate" : 1457595754134,
+  "header" : 5
+}
+{
+  "orderID" : 6,
+  "lines" : [ {
+    "filledQuantity" : 0,
+    "lineStatus" : "OUT_OF_STOCK",
+    "createDate" : 1457595754010,
+    "updateDate" : 1457595754140,
+    "product" : "D",
+    "quantity" : 4
+  } ],
+  "orderStatus" : "PARTIAL",
+  "totalLeftToFill" : 4,
+  "recvDate" : 1457595754010,
+  "fillDate" : null,
+  "header" : 6
+}
+{
+  "orderID" : 8,
+  "lines" : [ {
+    "filledQuantity" : 1,
+    "lineStatus" : "FILLED",
+    "createDate" : 1457595754027,
+    "updateDate" : 1457595754146,
+    "product" : "A",
+    "quantity" : 1
+  }, {
+    "filledQuantity" : 1,
+    "lineStatus" : "FILLED",
+    "createDate" : 1457595754027,
+    "updateDate" : 1457595754146,
+    "product" : "C",
+    "quantity" : 1
+  } ],
+  "orderStatus" : "FILLED",
+  "totalLeftToFill" : 0,
+  "recvDate" : 1457595754027,
+  "fillDate" : 1457595754146,
+  "header" : 4
+}
+{
+  "orderID" : 9,
+  "lines" : [ {
+    "filledQuantity" : 3,
+    "lineStatus" : "FILLED",
+    "createDate" : 1457595754035,
+    "updateDate" : 1457595754152,
+    "product" : "B",
+    "quantity" : 3
+  } ],
+  "orderStatus" : "FILLED",
+  "totalLeftToFill" : 0,
+  "recvDate" : 1457595754035,
+  "fillDate" : 1457595754152,
+  "header" : 5
+}
+{
+  "orderID" : 10,
+  "lines" : [ {
+    "filledQuantity" : 0,
+    "lineStatus" : "OUT_OF_STOCK",
+    "createDate" : 1457595754043,
+    "updateDate" : 1457595754159,
+    "product" : "D",
+    "quantity" : 4
+  } ],
+  "orderStatus" : "PARTIAL",
+  "totalLeftToFill" : 4,
+  "recvDate" : 1457595754043,
+  "fillDate" : null,
+  "header" : 6
+}
+{
+  "orderID" : 11,
+  "lines" : [ {
+    "filledQuantity" : 1,
+    "lineStatus" : "FILLED",
+    "createDate" : 1457595754050,
+    "updateDate" : 1457595754165,
+    "product" : "A",
+    "quantity" : 1
+  }, {
+    "filledQuantity" : 1,
+    "lineStatus" : "FILLED",
+    "createDate" : 1457595754050,
+    "updateDate" : 1457595754165,
+    "product" : "C",
+    "quantity" : 1
+  } ],
+  "orderStatus" : "FILLED",
+  "totalLeftToFill" : 0,
+  "recvDate" : 1457595754050,
+  "fillDate" : 1457595754165,
+  "header" : 7
+}
+{
+  "orderID" : 12,
+  "lines" : [ {
+    "filledQuantity" : 3,
+    "lineStatus" : "FILLED",
+    "createDate" : 1457595754058,
+    "updateDate" : 1457595754171,
+    "product" : "B",
+    "quantity" : 3
+  } ],
+  "orderStatus" : "FILLED",
+  "totalLeftToFill" : 0,
+  "recvDate" : 1457595754058,
+  "fillDate" : 1457595754171,
+  "header" : 8
+}
+{
+  "orderID" : 13,
+  "lines" : [ {
+    "filledQuantity" : 0,
+    "lineStatus" : "OUT_OF_STOCK",
+    "createDate" : 1457595754073,
+    "updateDate" : 1457595754178,
+    "product" : "D",
+    "quantity" : 4
+  } ],
+  "orderStatus" : "PARTIAL",
+  "totalLeftToFill" : 4,
+  "recvDate" : 1457595754073,
+  "fillDate" : null,
+  "header" : 9
+}
+{
+  "orderID" : 14,
+  "lines" : [ {
+    "filledQuantity" : 1,
+    "lineStatus" : "FILLED",
+    "createDate" : 1457595754080,
+    "updateDate" : 1457595754187,
+    "product" : "A",
+    "quantity" : 1
+  }, {
+    "filledQuantity" : 1,
+    "lineStatus" : "FILLED",
+    "createDate" : 1457595754080,
+    "updateDate" : 1457595754187,
+    "product" : "C",
+    "quantity" : 1
+  } ],
+  "orderStatus" : "FILLED",
+  "totalLeftToFill" : 0,
+  "recvDate" : 1457595754080,
+  "fillDate" : 1457595754187,
+  "header" : 10
+}
+{
+  "orderID" : 15,
+  "lines" : [ {
+    "filledQuantity" : 3,
+    "lineStatus" : "FILLED",
+    "createDate" : 1457595754087,
+    "updateDate" : 1457595754195,
+    "product" : "B",
+    "quantity" : 3
+  } ],
+  "orderStatus" : "FILLED",
+  "totalLeftToFill" : 0,
+  "recvDate" : 1457595754087,
+  "fillDate" : 1457595754195,
+  "header" : 11
+}
+{
+  "orderID" : 16,
+  "lines" : [ {
+    "filledQuantity" : 4,
+    "lineStatus" : "FILLED",
+    "createDate" : 1457595754094,
+    "updateDate" : 1457595754204,
+    "product" : "A",
+    "quantity" : 4
+  } ],
+  "orderStatus" : "FILLED",
+  "totalLeftToFill" : 0,
+  "recvDate" : 1457595754094,
+  "fillDate" : 1457595754204,
+  "header" : 12
+}
+########## Orders Status end ################
+########## Inventory Status after product fill begin ################
+{
+  "C" : {
+    "productID" : 3,
+    "productName" : "C",
+    "quantityAvailable" : 0,
+    "createdDate" : 1457595753907,
+    "updatedDate" : 1457595753907
+  },
+  "D" : {
+    "productID" : 4,
+    "productName" : "D",
+    "quantityAvailable" : 0,
+    "createdDate" : 1457595753907,
+    "updatedDate" : 1457595753907
+  },
+  "E" : {
+    "productID" : 5,
+    "productName" : "E",
+    "quantityAvailable" : 3,
+    "createdDate" : 1457595753907,
+    "updatedDate" : 1457595753907
+  },
+  "A" : {
+    "productID" : 1,
+    "productName" : "A",
+    "quantityAvailable" : 1,
+    "createdDate" : 1457595753906,
+    "updatedDate" : 1457595753906
+  },
+  "B" : {
+    "productID" : 2,
+    "productName" : "B",
+    "quantityAvailable" : 0,
+    "createdDate" : 1457595753907,
+    "updatedDate" : 1457595753907
+  }
+}
+########## Inventory Status after product fill end  ################
+Comsumer  finished its job; terminating.

@@ -1,0 +1,24 @@
+{  "product": [
+	{
+	 "productName" : "A",
+	 "quantityAvailable" : "10" 
+	 },
+	{
+	 "productName" : "B",
+	 "quantityAvailable" : "12" 
+	 },
+	{
+	 "productName" : "C",
+	 "quantityAvailable" : "5" 
+	 },
+	{
+	 "productName" : "D",
+	 "quantityAvailable" : "5" 
+	 },
+	{
+	 "productName" : "E",
+	 "quantityAvailable" : "8" 
+	 }
+] 
+}
+
