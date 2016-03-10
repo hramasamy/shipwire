@@ -1,0 +1,14 @@
+To Build 
+
+   mvn package 
+
+To run 
+
+   1) cd target
+   2) java -jar inventory.jar ../data/sample.json ../data/orders.json 
+   3) an optional number can be given as the third argument denoting number of threads to process the inventory. 
+
+Sample Output  
+ 
+   *) a sample output exists in data dir and is called sample output. The orders and products are printed prior to processing 
+      and after processing the status of orders and product inventory status.

@@ -41,6 +41,7 @@ public class InventoryProcess {
                 }
             }
 
+	    System.out.println ("########### Orders are being processed and printed now #####################") ;
             ExecutorService threadPool = Executors.newFixedThreadPool(noofThreads);
 
             Future consumerStatus = threadPool.submit(new ConsumeOrder(orderBroker));
